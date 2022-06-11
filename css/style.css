@@ -1,0 +1,34 @@
+body{
+    background-color: #F6F8F9;
+    font-family: 'Roboto';
+}
+.a-logo{
+    color: #FA6980;
+}
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.li-a{
+    color: #707070;
+}
+.active{
+    color: #343638;
+}
+.nav-block{
+    max-width: 500px;
+    width: 100%;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
