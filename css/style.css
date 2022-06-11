@@ -37,7 +37,11 @@ body{
 
 /* Section One */
 .section-one{
+    max-width: 1550px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
+    border-radius: 15px;
 }
 .line{
     margin: 40px 0px;
@@ -51,6 +55,7 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    position: relative;
+   
 }
 .banner-text{
     max-width: 600px;
@@ -116,12 +121,99 @@ body{
     justify-content: space-between;
 }
 .clock{
-    max-width: 100px;
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    margin-top: 15px;
+    color: #A6ADB4;
+}
+.img-clock{
+    margin-right: 15px;
 }
 .grey{
     color: #A6ADB4;
 }
 
+/* section Two */
+.sectionTwo-block{
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sectionTwo-div,
+.sectionThree-div{
+    max-width: 360px;
+    width: 100%;
+}
+.sectionTwo-text{
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+}
+.section-title{
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 900;  
+}
+.section-title-div{
+    max-width: 1160px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+/* section three */
+.sectionThree-left-div{
+    max-width: 767px;
+    width: 100%;
+    position: relative;
+}
+.left-img{
+    max-width: 767px;
+    width: 100%;
+}
+.right-img{
+    max-width: 360px;
+    width: 100%;
+}
+.left-div-title{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #FFFFFF;
+}
+.left-div-text{
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+    color: #FFFFFF;
+}
+.title-h4{
+    color: #ffffff;
+    margin: 0px 0px 20px 0px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.sectionThree-text{
+    padding: 25px;
+    border-radius: 15px;
+}
+.underline{
+    text-decoration: underline;
+}
+.sectionThree-block{
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sectionThree-left-div:nth-child(2){
+    margin-top: 40px;
+}
