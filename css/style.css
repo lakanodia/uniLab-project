@@ -2,6 +2,7 @@ body{
     background-color: #F6F8F9;
     font-family: 'Roboto';
 }
+/* header */
 .a-logo{
     color: #FA6980;
 }
@@ -12,9 +13,11 @@ body{
     text-transform: uppercase;
     font-weight: 900;
     padding: 20px;
-    position: fixed;
+    /* position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 1; */
 }
 .li-a{
     color: #707070;
@@ -23,12 +26,102 @@ body{
     color: #343638;
 }
 .nav-block{
-    max-width: 500px;
+    max-width: 450px;
     width: 100%;
 }
 .nav-ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Section One */
+.section-one{
+    display: flex;
+}
+.line{
+    margin: 40px 0px;
+    border: 1px solid #EBEDED;
+    background-color: #EBEDED;
+}
+.banner-img{
+   background-image: url(../img/banner.png);
+   max-width: 840px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+.banner-text{
+    max-width: 600px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    padding-right: 50px;
+}
+.p-text{
+    margin: 16px 0px;
+    line-height: 25px;
+}
+.banner-title{
+    font-size: 24px;
+    font-weight: 900;
+}
+.banner-button{
+    border: none;
+    background-color: #FA6980;
+    color: white;
+    padding: 17px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* section One text style */
+.sectionOne-div{
+    padding: 100px;
+    background-color: white;
+}
+.sectionOne-title-div{
+    display: flex;
+    justify-content: space-between;
+}
+.sectionOne-title{
+    font-size: 24px;
+    font-weight: 900;
+}
+.h3-title{
+    color: #FA6980;
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight: 800;
+}
+.h4-title{
+    color: #202124;
+    margin: 0px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.sectionOne-text{
+    color: #A6ADB4;
+}
+.arrows{
+    max-width: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.clock{
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.grey{
+    color: #A6ADB4;
 }
 
