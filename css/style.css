@@ -110,7 +110,7 @@ body{
 }
 .h4-title{
     color: #202124;
-    margin: 0px 0px 10px 0px;
+    margin: 20px 0px 10px 0px;
     font-size: 16px;
     font-weight: 800;
 }
@@ -148,6 +148,16 @@ body{
 .sectionThree-div{
     max-width: 360px;
     width: 100%;
+    border-radius: 15px;
+    transition: 0.4s;
+    transform: scale(1);
+}
+.sectionTwo-div:hover{
+    box-shadow: 0px 5px 15px grey;
+    transform: scale(1.03);
+}
+.sectionThree-div:hover{
+    transform: scale(1.04);
 }
 .sectionTwo-text{
     padding: 40px;
@@ -175,6 +185,14 @@ body{
     max-width: 767px;
     width: 100%;
     position: relative;
+    border-radius: 15px;
+    transition: 0.4s;
+    transform: scale(1);
+    opacity: 85%;
+}
+.sectionThree-left-div:hover{
+    transform: scale(1.05);
+    opacity: 100%;
 }
 .left-img{
     max-width: 767px;
@@ -288,7 +306,11 @@ input{
     margin: 0 auto;
 }
 .p2nav{
+    max-width: 200px;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .p2-icons{
     max-width: 1160px;
@@ -297,9 +319,40 @@ input{
     justify-content: space-between;
     margin: 0 auto;
 }
-.text-icon::before{
-    content: '\e901';
+.p2section-div{
+    max-width: 300px;
+    width: 100%;
+    color: #A6ADB4;
+}
+.p2section-two{
+    max-width: 1160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    padding: 40px 0;
+    border-top: 2px solid #EBEDED;
+    border-bottom: 2px solid #EBEDED;
+
+}
+.p2-text{
+    max-width: 760px;
+    width: 100%;
+    margin-top: 15px;
+    color: #A6ADB4;
     
+}
+.p2section-three{
+    max-width: 1160px;
+    width: 100%;
+    margin: 15px auto;
+    padding-bottom: 30px ;
+    border-bottom: 2px solid #EBEDED;
+}
+.footer-div{
+    background-color: #A6ADB4;
+    height: 200px;
 }
 
 
