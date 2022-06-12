@@ -110,7 +110,7 @@ body{
 }
 .h4-title{
     color: #202124;
-    margin: 20px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
     font-size: 16px;
     font-weight: 800;
 }
@@ -221,7 +221,7 @@ body{
     font-weight: 800;
 }
 .sectionThree-text{
-    padding: 25px;
+    padding: 20px;
     border-radius: 15px;
 }
 .underline{
@@ -279,7 +279,7 @@ body{
     border-radius: 15px;
 }
 select,
-input{
+input[type=text]{
     max-width: 350px;
     width: 100%;
     background-color: white;
@@ -302,7 +302,6 @@ input{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 15px;
     margin: 0 auto;
 }
 .p2nav{
@@ -350,9 +349,70 @@ input{
     padding-bottom: 30px ;
     border-bottom: 2px solid #EBEDED;
 }
-.footer-div{
+.footer{
+    padding: 56px 0px;
     background-color: #A6ADB4;
-    height: 200px;
+    margin-top: 150px;
+}
+.footer-div{
+    max-width: 1160px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #A6ADB4;
+    color:  #CBD0D3;
+    margin: 0 auto;
+}
+.ul-div{
+    display: flex;
+    flex-wrap: wrap;
+    color: #CBD0D3;
+    font-size: 13px;
+}
+input[type=email]{
+    background-color:#A6ADB4;
+    outline: none;
+    border: 2px solid  #CBD0D3;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 4px;
+    line-height: 2px;
+    padding: 10px;
+    color: #CBD0D3;
+    margin-bottom: 15px;
 }
 
+.email-div{
+    max-width: 262px;
+    width: 100%;
+    position: relative;
+    font-size: 11px;
+}
+.icon{
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    color: white;
+}
+.social-icons{
+    max-width: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+.footer-logo{
+    color: #FFFFFF;
+    font-weight: 900;
+    line-height: 30px;
+    margin-right: 60px;
 
+}
+.footer-li{
+    line-height: 30px;
+}
+.footer-ul{
+    margin-right: 40px;
+}
