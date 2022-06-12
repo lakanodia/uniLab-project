@@ -339,8 +339,7 @@ input[type=text]{
     max-width: 760px;
     width: 100%;
     margin-top: 15px;
-    color: #A6ADB4;
-    
+    color: #A6ADB4; 
 }
 .p2section-three{
     max-width: 1160px;
@@ -349,6 +348,12 @@ input[type=text]{
     padding-bottom: 30px ;
     border-bottom: 2px solid #EBEDED;
 }
+.page2-img{
+    max-width: 1160px;
+    width: 100%;
+}
+
+/* footer */
 .footer{
     padding: 56px 0px;
     background-color: #A6ADB4;
