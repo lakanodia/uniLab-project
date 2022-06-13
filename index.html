@@ -25,7 +25,7 @@
         <div class="logo-div">
             <a class="a-logo" href="index.html">logo</a>
         </div>
-        <nav class="nav-block">
+        <nav class="nav-block" id="nav-block">
             <ul class="nav-ul">
                 <li class="nav-li"> <a class="li-a active" href="index.html"> home </a></li>
                 <li class="nav-li"> <a class="li-a"  href="news.html"> discovery </a></li>
@@ -36,6 +36,11 @@
                 </li>
             </ul>
         </nav>
+        <div class="burger-bar" id="burger-bar">
+            <div class="burger-child" id="top-child"></div> 
+            <div class="burger-child" id="middle-child"></div> 
+            <div class="burger-child" id="bottom-child"></div> 
+        </div>
     </header> 
     <section class="section-one">
         <div class="banner-img">
@@ -56,22 +61,24 @@
                 </div>   
             </div>
             <hr class="line">
-            <div class="sectionOne-text">
-                <h3 class="h3-title">TRAVEL</h3>
-                <h4 class="h4-title">Article title</h4>
-                <p class="p-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-                <div class="clock">
-                    <img class="img-clock" src="img/time.png" alt="time">
-                    <p>2 min ago</p>
+            <div class="banner-side"    >
+                <div class="sectionOne-text">
+                    <h3 class="h3-title">TRAVEL</h3>
+                    <h4 class="h4-title">Article title</h4>
+                    <p class="p-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+                    <div class="clock">
+                        <img class="img-clock" src="img/time.png" alt="time">
+                        <p>2 min ago</p>
+                    </div>
                 </div>
-            </div>
-            <div class="sectionOne-text">
-                <h3 class="h3-title">TECHNOLOGY</h3>
-                <h4 class="h4-title">Article title</h4>
-                <p class="p-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-                <div class="clock">
-                    <img class="img-clock" src="img/time.png" alt="time">
-                    <p>2 min ago</p>
+                <div class="sectionOne-text">
+                    <h3 class="h3-title">TECHNOLOGY</h3>
+                    <h4 class="h4-title">Article title</h4>
+                    <p class="p-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+                    <div class="clock">
+                        <img class="img-clock" src="img/time.png" alt="time">
+                        <p>2 min ago</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -86,7 +93,7 @@
         </div> 
         <div class="sectionTwo-block">
             <div class="sectionTwo-div">
-                <img src="img/section2-img1.png" alt="">
+                <img class="sectionTwo-img" src="img/section2-img1.png" alt="">
                 <div class="sectionTwo-text">
                     <h4 class="h4-title">Dolore magna aliqua</h4>
                     <p class="p-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
@@ -97,7 +104,7 @@
                 </div>
             </div>
             <div class="sectionTwo-div">
-                <img src="img/section2-img2.png" alt="">
+                <img class="sectionTwo-img" src="img/section2-img2.png" alt="">
                 <div class="sectionTwo-text">
                     <h4 class="h4-title">Morbi eleifend a libero</h4>
                     <p class="p-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
@@ -108,7 +115,7 @@
                 </div>
             </div>
             <div class="sectionTwo-div">
-                <img src="img/section2-img3.png" alt="">
+                <img class="sectionTwo-img" src="img/section2-img3.png" alt="">
                 <div class="sectionTwo-text">
                     <h4 class="h4-title">Dolore magna aliqua</h4>
                     <p class="p-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
@@ -226,5 +233,6 @@
             </div>
         </div> 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
