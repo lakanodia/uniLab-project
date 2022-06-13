@@ -37,6 +37,15 @@
         width: 100%;
         margin-top: 20px;
     }
+
+
+    /* page 2 */
+
+    .p2section-one,
+    .p2section-two{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* tablet */

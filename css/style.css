@@ -301,7 +301,6 @@ input[type=text]{
     max-width: 1160px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     margin: 3px auto;
 }
 .p2nav{
