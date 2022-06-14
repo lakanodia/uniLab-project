@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniLab</title>
+    <meta name="description" content="Free web Assignment">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Lali Nodia">
+    <meta property="og:url" content="img/"/>
+    <meta property="og:type" content="UniLab Assignment"/>
+    <meta property="og:title" content="UniLab Assignment"/>
+    <meta property="og:description" content="UniLab Assignment"/>
+    <meta property="og:image" content="img/"/>
+    <link rel="icon" type="text/css" href="img/">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header class="header-block">
+        <div class="logo-div">
+            <a class="a-logo" href="index.html">logo</a>
+        </div>
+        <nav class="nav-block" id="nav-block">
+            <ul class="nav-ul">
+                <li class="nav-li"> <a class="li-a" href="index.html"> home </a></li>
+                <li class="nav-li"> <a class="li-a"  href="news.html"> discovery </a></li>
+                <li class="nav-li"> <a class="li-a active"  href="posts.html"> photos </a> </li>
+                <li class="nav-li"> <a class="li-a"  href="#"> contact </a> </li>
+                <li class="nav-li">
+                    <a href="index.html"> <img src="img/user.png" alt="user-img"></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="burger-bar" id="burger-bar">
+            <div class="burger-child" id="top-child"></div> 
+            <div class="burger-child" id="middle-child"></div> 
+            <div class="burger-child" id="bottom-child"></div> 
+        </div>
+    </header> 
+    <section>
+        <h2 class="section-post-title" >Information About Posts</h2>
+        <div class="main-post-block" id="main-post-block">
+        </div>
+        <div class="post-card" id="post-card">
+            <div class="post-content" id="post-content"></div>
+            <div class="close-icon" id="close"> <i class="fa-solid fa-xmark"> </i> </div>
+        </div>
+    </section>
+    <section>
+        <section>
+            <div id="user_div" class="user-info">
+                <ul id="user_ul"></ul>
+            </div>
+            <div class="button-div">
+                <button class="button"  id="prev"> Previous Users </button>
+                <button class="button" id="next"> Next Users </button>
+            </div>
+        
+        </section>
+    </section>
+    <footer class="footer">
+        <div class="footer-div">
+            <div class="ul-div">
+                <h5 class="footer-logo" >LOGO</h5>
+                <ul class="footer-ul">
+                    <li class="footer-li">Home</li>
+                    <li class="footer-li">Discovery</li>
+                    <li class="footer-li">Photos</li>
+                    <li class="footer-li">Contact</li>
+                </ul>
+                <ul class="footer-ul">
+                    <li class="footer-li">About</li>
+                    <li class="footer-li">Help</li>
+                    <li class="footer-li">Terms</li>
+                    <li class="footer-li">Guidlines</li>
+                </ul>
+                <ul class="footer-ul">
+                    <li class="footer-li">Testimonials</li>
+                    <li class="footer-li">Advertise</li>
+                    <li class="footer-li">Integrations</li>
+                    <li class="footer-li">Careers</li>
+                </ul>
+            </div>
+            <div class="email-div">
+                <i class="fa-solid fa-paper-plane icon"></i>
+                <input type="email" id="text" name="text" placeholder="email" class="input-field" >
+                <p class="">Stay in touch with us for the freshest products!</p>
+            </div> 
+            <div class="social-icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-solid fa-earth-americas"></i>
+            </div>
+        </div> 
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
