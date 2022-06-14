@@ -351,6 +351,9 @@ input[type=text]{
     max-width: 1160px;
     width: 100%;
 }
+.p2section-text{
+    display: flex;
+}
 
 /* footer */
 .footer{
