@@ -91,7 +91,7 @@ body{
 }
 
 /* section One text style */
-.sectionOne-div{
+.sectionOneText-div{
     padding: 80px;
     background-color: white;
 }
@@ -160,6 +160,21 @@ body{
     transform: scale(1.02);
 } */
 
+.numbers{
+    max-width: 200px;
+    width:100%;
+    display: flex;
+    color: #A6ADB4;
+    margin: 0 auto;
+    display: none;
+}
+.num{
+    margin-right: 15px;
+}
+.numActive{
+    color: #202124;
+    text-decoration: underline #FA6980;
+}
 .sectionTwo-img{
     width: 100%;
 }
@@ -428,7 +443,7 @@ input[type=email]{
 
 /* burger bar */
 .burger-child{
-    width: 30px;
+    width: 28px;
     height: 3px;
     background-color: #262626;
     margin-top: 5px;
@@ -438,10 +453,10 @@ input[type=email]{
 .burger-bar{
     position: absolute;
     top:20px;
+    left: 10px;
     transform: translateY(-50%);
-    right: 10px;
+    cursor: pointer;  
     display: none;
-    cursor: pointer;    
 }
 
 
@@ -475,6 +490,7 @@ input[type=email]{
     box-shadow: 0px 0px 30px rgba(255, 91, 112, 0.689);
 }
 .view-post{
+    font-family: 'Comfortaa';
     margin-left: 60%;
     margin-top: 10%;
     background-color: #ff993300;
@@ -482,8 +498,7 @@ input[type=email]{
     border: none;
     cursor: pointer;
     font-size: 25px;
-    font-weight: 900;
-    font-family: 'Comfortaa';
+    font-weight: 900; 
 }
 .view-post {
     color: #fff;
@@ -621,11 +636,39 @@ input[type=email]{
 
 .p-Email{
     color: rgb(151, 37, 56);
+    font-size: 10px;
+    margin: 10px;
 }
 
 button{
     font-family: 'Roboto';
     cursor: pointer;
+}
+.footer-info-block{
+    display: flex;
+    flex-direction: column;
+    background-color:#A6ADB4;
+    margin-bottom: 0;
+    color: white;
+    font-size: 11px;
+    font-weight: 100;
+    padding-left: 20px;
+    display: none;
+}
+.info-icons{
+    max-width: 120px;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between; 
+}
+.footer-info-div{
+    display: flex;
+    margin-bottom: 20px;
+}
+.icon-menu{
+    display: none;
+    opacity: 80%;
 }
 
 
