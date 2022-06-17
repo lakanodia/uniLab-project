@@ -179,7 +179,7 @@ body{
     opacity: 80%;
 }
 .sectionTwo-img:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
     border-radius: 7px;
     opacity: 100%;
 }
@@ -212,11 +212,11 @@ body{
     position: relative;
     border-radius: 15px;
     transition: 0.4s;
-    transform: scale(1);
+    transform: scale(0.97);
     opacity: 85%;
 }
 .sectionThree-left-div:hover{
-    transform: scale(1.03);
+    transform: scale(1);
     opacity: 100%;
 }
 .left-img,
