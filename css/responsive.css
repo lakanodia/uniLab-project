@@ -65,6 +65,7 @@
     .sectionTwo-div{
         width: 100%;
         margin: 15px;
+        padding: 10px;
     }
     .sectionTwo-div:nth-child(3){
         display: none;
@@ -91,6 +92,9 @@
     .p2section-two{
         flex-direction: column;
         align-items: flex-start;
+        padding: 20px;
+    }
+    .p2section-three{
         padding: 20px;
     }
 }

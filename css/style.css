@@ -19,7 +19,6 @@ body{
     width: 100%;
     background-color: #F6F8F9;
     z-index: 1;
-
 }
 .li-a{
     color: #707070;
@@ -59,7 +58,7 @@ body{
    background-size: cover;
    position: relative; 
 }
-/*  */
+/* Text on Banner */
 .banner-text{
     max-width: 600px;
     width: 100%;
@@ -88,9 +87,14 @@ body{
     border-radius: 10px;
     font-weight: 700;
     cursor: pointer;
+    transition: 0.5s;
+}
+.banner-button:hover{
+    background-color: #EBEDED;
+    color: #FA6980;
 }
 
-/* section One text style */
+/* section One banner side text style */
 .sectionOneText-div{
     padding: 80px;
     background-color: white;
@@ -152,13 +156,6 @@ body{
     transition: 0.4s;
     transform: scale(1);
 }
-/* .sectionTwo-div:hover{
-    box-shadow: 0px 5px 15px grey;
-    transform: scale(1.03);
-}
-.sectionThree-div:hover{
-    transform: scale(1.02);
-} */
 
 .numbers{
     max-width: 200px;
@@ -177,11 +174,20 @@ body{
 }
 .sectionTwo-img{
     width: 100%;
+    transform: scale(1);
+    transition: 0.5s;
+    opacity: 80%;
+}
+.sectionTwo-img:hover{
+    transform: scale(1.05);
+    border-radius: 7px;
+    opacity: 100%;
 }
 .sectionTwo-text{
     padding: 40px;
     background-color: white;
-    border-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .section-title{
     max-width: 1160px;
@@ -209,13 +215,18 @@ body{
     transform: scale(1);
     opacity: 85%;
 }
-/* .sectionThree-left-div:hover{
-    transform: scale(1.05);
+.sectionThree-left-div:hover{
+    transform: scale(1.03);
     opacity: 100%;
-} */
+}
 .left-img,
 .right-img{
     width: 100%;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.right-img:hover{
+    box-shadow: 0px 5px 20px rgb(54, 54, 54);
 }
 
 .left-div-title{
@@ -265,7 +276,7 @@ body{
     background-size: cover;
     position: relative; 
  }
- /*  */
+ /*  Page two banner text*/
 .p2banner-text{
     max-width: 600px;
     width: 100%;
@@ -348,7 +359,6 @@ input[type=text]{
     padding: 40px 0;
     border-top: 2px solid #EBEDED;
     border-bottom: 2px solid #EBEDED;
-
 }
 .p2-text{
     max-width: 760px;
@@ -440,7 +450,6 @@ input[type=email]{
     margin-right: 40px;
 }
 
-
 /* burger bar */
 .burger-child{
     width: 28px;
@@ -460,16 +469,13 @@ input[type=email]{
 }
 
 
-
 /* page 3 */
 
 /* style section and posts*/
 .post-div{
-    max-width: 450px;
+    max-width: 350px;
     width: 100%;
     height: 300px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -491,11 +497,10 @@ input[type=email]{
 }
 .view-post{
     font-family: 'Comfortaa';
-    margin-left: 60%;
-    margin-top: 10%;
-    background-color: #ff993300;
+    background-color: #fa698128;
     color: rgb(255, 255, 255);
-    border: none;
+    border: 4px solid white;
+    border-radius: 7px;
     cursor: pointer;
     font-size: 25px;
     font-weight: 900; 
@@ -508,23 +513,21 @@ input[type=email]{
 .view-post:after {    
     bottom: 0;
     content: "";
-    height: 2px;
+    height: 35px;
     left: 50%;
     position: absolute;
-    background: rgb(255, 255, 255);
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    background: rgba(255, 255, 255, 0.445);
+    transition: width 0.4s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
 .view-post:hover:after { 
     width: 100%; 
-    left: 0; 
+    left: 0;
 }
 .main-post-block{
-    max-width: 1000px;
+    max-width: 1160px;
     margin: 100px auto;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -564,8 +567,6 @@ input[type=email]{
     z-index: 15;
 }
 .post-content{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -596,48 +597,6 @@ input[type=email]{
 }
 .active-post{
     display: block;
-}
-
-
-
-
-#user_ul{
-    margin: 5% auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.button-div{
-    display: flex;
-    justify-content: center;
-}
-.button{
-    margin-left: 5%;
-    border: none;
-    border-radius: 7px;
-    background-color: #FA6980;
-    color: rgb(255, 254, 252);
-    height: 30px;
-}
-
-.button:hover {
-    background-color: #fe4564;
-}
-
-.user-img{
-    max-width: 150px;
-    width: 100%;
-    height: 140px;
-    object-fit: cover;
-    border: 6px solid #FA6980;
-    box-shadow: 0px 0px 10px #202124;
-    
-}
-
-.p-Email{
-    color: rgb(151, 37, 56);
-    font-size: 10px;
-    margin: 10px;
 }
 
 button{
