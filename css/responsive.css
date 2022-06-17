@@ -53,8 +53,15 @@
     }
 }
 
-/* tablet */
 @media(max-width: 768px){
+    .main-post-block{
+        justify-content: center;
+    }
+
+}
+
+/* tablet */
+@media(max-width: 840px){
     .banner-side{
         display: flex;
     }
